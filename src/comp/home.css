@@ -17,7 +17,13 @@
     flex-direction: column; /* Stack items vertically */
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to bottom, #070220, #030222);
+    /* background-image: linear-gradient(to bottom, #303046, #6e6c91); */
+    background: #4b4c4b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000C40, #323232);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000C40, #2c2c2c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
 
     height: 100vh; 
     background-color: #030c35;
@@ -53,9 +59,10 @@
   
   
   .form button {
+    /* #0EB4FF */
     width: 18%;
     height: 40px;
-    background-color:#0EB4FF ; /* Change to your preferred button color */
+    background-color: rgb(39, 72, 96); /* Change to your preferred button color */
     color: #fff; /* Text color */
     border: none;
     border-radius: 5px;
@@ -68,5 +75,43 @@
   
   .form button:hover {
     background-color: #0EB4FF; /* Change to a darker shade for hover effect */
+  }
+
+
+
+  @media screen and (max-width: 800px){
+    .img img {
+      max-width: 75%; /* Set maximum width to 80% */
+      display: block;
+      margin-left: auto; /* Center the image by adding auto margin on left and right */
+      margin-right: auto;
+      height: auto; /* Maintain aspect ratio */
+    }
+    .form input {
+      /*  */
+      width: 70%;
+      height: 34px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 13px;
+      
+    }
+    
+    .form button {
+      width: 20%;
+      height: 32px;
+      background-color:#0EB4FF ; /* Change to your preferred button color */
+      color: #fff; /* Text color */
+      border: none;
+      border-radius: 5px;
+      font-size: 17px;
+    
+    }
+.main{
+  height: 85vh; 
+}
+  
+    
   }
   
