@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from './cybrix3.png';
+import logo from './cybrix1.png';
 import './home.css';
 
 const Home = () => {
