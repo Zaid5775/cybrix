@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cybrix/static/css/main.2e6a5a54.css",
-    "main.js": "/cybrix/static/js/main.002071dd.js",
+    "main.css": "/cybrix/static/css/main.e4c33133.css",
+    "main.js": "/cybrix/static/js/main.94afb3b1.js",
     "static/js/787.c1112931.chunk.js": "/cybrix/static/js/787.c1112931.chunk.js",
-    "static/media/LeagueSpartan-VariableFont_wght.ttf": "/cybrix/static/media/LeagueSpartan-VariableFont_wght.373d611ec44856608b96.ttf",
-    "static/media/cybrix3.png": "/cybrix/static/media/cybrix3.0ef11ab8f77b54af174d.png",
+    "static/media/CircularSpotifyText-Black.otf": "/cybrix/static/media/CircularSpotifyText-Black.4d9537a9773dfc1f9edd.otf",
+    "static/media/cybrix1.png": "/cybrix/static/media/cybrix1.6a666e4f0475c1545c44.png",
     "index.html": "/cybrix/index.html",
-    "main.2e6a5a54.css.map": "/cybrix/static/css/main.2e6a5a54.css.map",
-    "main.002071dd.js.map": "/cybrix/static/js/main.002071dd.js.map",
+    "main.e4c33133.css.map": "/cybrix/static/css/main.e4c33133.css.map",
+    "main.94afb3b1.js.map": "/cybrix/static/js/main.94afb3b1.js.map",
     "787.c1112931.chunk.js.map": "/cybrix/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e6a5a54.css",
-    "static/js/main.002071dd.js"
+    "static/css/main.e4c33133.css",
+    "static/js/main.94afb3b1.js"
   ]
 }
