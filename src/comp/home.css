@@ -85,6 +85,40 @@
     background-color: #030303; /* Change to a darker shade for hover effect */
   }
 
+  
+.navbar{
+
+  /* background-color: rgb(250, 250, 250);
+  background-color: rgb(247, 247, 247); */
+  color: #fff;
+  display: flex;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  /* background: linear-gradient(63deg, rgb(253, 253, 253) 0%, rgba(211, 211, 211, 0.928) 50%, rgb(255, 245, 253) 100%); */
+  position: fixed;
+  top: 0;
+  width : 100%;
+  z-index: 1; 
+  flex-direction: row;
+  align-items: center;
+  
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+  
+}
+.contact, .about{
+  margin-left: 20px;
+}
+#main-title img{
+  width: 35px;
+ margin-top: 7px;
+ margin-bottom: 7px;
+
+  margin-right: 5px;
+  margin-left: 30px;
+
+}
 
 
   @media screen and (max-width: 800px){
@@ -98,7 +132,7 @@
     .form input {
       /*  */
       width: 70%;
-      height: 34px;
+      height: 40px;
       border: 2px solid #ccc;
       border-radius: 5px;
       padding: 10px;
@@ -115,8 +149,21 @@
     }
 .main{
   height: 100vh; 
+  background: linear-gradient(63deg, rgb(253, 253, 253) 10%, rgba(211, 211, 211, 0.928) 50%, rgb(255, 245, 253) 90%);
 }
   
+.contact, .about{
+  margin-left: 8px;
+  font-size: 15px;
+}
+#main-title img{
+  width: 28px;
+ margin-top: 7px;
+ margin-bottom: 7px;
+
+  margin-right: 5px;
+  margin-left: 10px;
+}
     
   }
   
