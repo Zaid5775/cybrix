@@ -19,15 +19,19 @@ const Home = () => {
     }, []);
 
     const handleSubmit = async (e) => {
-        e.preventDefault(); // Prevent the default form submission behavior
+        e.preventDefault();
         try {
-            const response = await axios.post('https://cybrix-zaidshaikh.onrender.com/scan', { url: url });
+            const response = await axios.post('https://cybrix-zaidshaikh.onrender.com/scan', 
+                { url: url }, 
+                { headers: {'Content-Type': 'application/json'} }
+            );
             console.log(response.data);
             setScanResults(response.data);
         } catch (error) {
             console.error(error);
         }
     }
+    
 
     const  scanagain = () =>{
         setScanResults(null);
