@@ -38,7 +38,7 @@
   
 
   .img img {
-    max-width: 85%; /* Set maximum width to 80% */
+    max-width: 60%; /* Set maximum width to 80% */
     display: block;
     margin-left: auto; /* Center the image by adding auto margin on left and right */
     margin-right: auto;
@@ -67,7 +67,7 @@
     width: 50%;
   }
   .form input {
-    width: 100%;
+    width: 80%;
     height: 45px;
 
     border-radius: 5px;
@@ -80,8 +80,20 @@
     outline: none;
 
   }
-  
-  .form button {
+  .hi {
+    width: 10%;
+    height: 40px;
+    background-color: rgb(70, 70, 70); /* Change to your preferred button color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  .form button{
     /* #0EB4FF */
     width: 18%;
     height: 40px;
@@ -96,7 +108,7 @@
     transition: background-color 0.3s ease;
   }
   
-  .form button:hover {
+  .form button:hover , .hi:hover{
     background-color: #030303; /* Change to a darker shade for hover effect */
   }
 
@@ -185,6 +197,12 @@
 }
 .main1{
   width: 100%;
+}
+.hi{
+  width: 30%;
+  height: 32px;
+
+  font-size: 17px;
 }
     
   }

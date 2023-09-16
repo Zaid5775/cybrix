@@ -1,0 +1,35 @@
+/* ScanResultsComponent.css */
+
+.scan-results {
+    transition: all 0.3s;
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.scan-results.red {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+.scan-results.green {
+    border-color: green;
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+.green-text {
+    color: green;
+}
+
+@media screen and (max-width: 800px) {
+    .scan-results {
+        width: 80%; /* Adjust the width as needed */
+        margin: 10px auto;
+    }
+
+    .scan-results.red, .scan-results.green {
+        text-align: center;
+        word-wrap: break-word;
+    }
+}
